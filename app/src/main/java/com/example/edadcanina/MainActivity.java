@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 String resultsString = "La edad del canino es: " + result + " años";
                 resultText.setText(resultsString);
                 }else{
-                    Toast.makeText(MainActivity.this,"")
+                    Toast.makeText(MainActivity.this,"Favor de ingresar la edad",Toast.LENGTH_LONG).show();
                 }
             }
         });
